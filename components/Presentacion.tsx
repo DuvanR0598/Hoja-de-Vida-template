@@ -1,34 +1,37 @@
-import React, { useState} from 'react';
-import { ButtonHireMe } from './ButtonHireMe';
-import { DialogHireMe } from './DialogHireMe';
-
+import React, { useState } from 'react';
+import { HireMeButton } from './HireMeButton';
+import { HireMeDialog } from './HireMeDialog';
 
 const Presentacion = () => {
-  const [openDialog, setOpenDialog] = useState(false);
+    const [openDialog, setOpenDialog] = useState(false);
 
-  const handleOpenDialog = () => {
-    setOpenDialog(true);
-  };
+    const dialogOpen = () => {
+        setOpenDialog(true);
+    };
 
-  const handleCloseDialog = () => {
-    setOpenDialog(false);
-  };
-  return (
-    <div className="flex items-center justify-between">
-      <div className="flex flex-col mx-11">
-        <p className=" text-5xl font-bold">Soy Ricardo Osorio, un futuro</p>
-        <p className=" text-5xl text-amber-600 font-bold mb-7">Ingeniero de Sistemas</p>
-        <p className=" font-light text-slate-500 mb-7 text-base">Soy un estudiante universitario apasionado por la Ingeniería de Sistemas, <br></br> próximo a graduarme con una sólida formación técnica y habilidades interpersonales.<br></br> Mi enfoque se ha centrado en el desarrollo de soluciones tecnológicas prácticas, la gestión de proyectos <br></br> y la resolución de problemas en el ámbito de la tecnología de la información.</p>
-        <ButtonHireMe onClick={handleOpenDialog}/>
-        <DialogHireMe isOpen={openDialog} handleClose={handleCloseDialog} />
-      </div>
-      <div className='flex items-center mx-12'>
-        <img src="/images/portada.jpg" alt="Imagen" className=" w-80 h-full" />
+    const handleCloseDialog = () => {
+        setOpenDialog(false);
+    };
+    return (
+        <div className="flex items-center justify-between">
+            <div className=" debug flex flex-col mt-20 ml-12 ">
+                <div className='debug text-4xl font-bold mb-7'>
+                    <p>I´m Duvan Ruiz</p>
+                    <span className="text-amber-300  ">Front-end</span>
+                    <span className="ml-1">Developer</span>
+                </div>
+                <p className="debug font-light text-slate-500 mb-7 text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde praesentium ea minus, et nihil voluptates reiciendis iure consequatur quos sequi?</p>
+                <HireMeButton onClick={dialogOpen} />
+                <HireMeDialog isOpen={openDialog} handleClose={handleCloseDialog} />
+            </div>
 
-      </div>
-      
-    </div>
-  );
+            <div className='debug flex items-center mx-16'>
+                <img className="w-96 h-full"
+                    src="/images/perfil_2.png"
+                    alt="Imagen" />
+            </div>
+        </div>
+    );
 }
 
-export {Presentacion};
+export { Presentacion };

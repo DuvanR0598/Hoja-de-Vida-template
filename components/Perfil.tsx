@@ -22,4 +22,4 @@ const Perfil = () => {
     ); 
 };
 
-export {Perfil};
+export {Perfil}; 

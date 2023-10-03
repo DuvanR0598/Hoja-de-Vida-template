@@ -7,10 +7,15 @@ const Home = () => {
       <Sidebar />
       <main className="debug w-full">
         <div>
-          <section className=" debug bg-white h-96 mx-9">
+          <section className=" debug bg-white h-96 ml-5 mr-32">
             <Presentacion />
           </section>
-          <section>My knowledge</section>
+
+          <div className='font-bold h-36 ml-5 mr-32 text-center mt-5'>
+            <span className=" text-xl">My Knowledge</span>
+            <p className="font-light text-slate-500 mt-5 mx-40 text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde praesentium ea minus, et nihil voluptates reiciendis iure consequatur quos sequi?</p>
+          </div>
+
           <section>education</section>
           <section>portfolio</section>
         </div>
