@@ -4,7 +4,7 @@ const Perfil = () => {
     return (
         <div className="relative text-center">
             <div className="relative inline-block">
-                <Image className='rounded-full mx-auto mb-4' 
+                <Image className='rounded-full mx-auto mb-3' 
                 src={'/images/perfil.jpg'} 
                 alt={'foto-perfil'} 
                 height={152}
@@ -15,7 +15,7 @@ const Perfil = () => {
                 <span className=" text-lg font-semibold mb-2">Duvan Ruiz</span>
             </div>
             <div>
-            <span className=" text-sm font-light text-slate-500">Front-End Developer</span>
+            <span className=" text-sm font-light text-slate-500">Back-End Developer</span>
             </div>
         </div>
         

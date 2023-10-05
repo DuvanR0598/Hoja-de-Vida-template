@@ -10,34 +10,29 @@ const Sidebar = () => {
                 <Perfil />
             </section>
             <div className="linea"></div>
-            <section className="mt-5 flex flex-col mx-8">
-                <DatosContacto textoIzq="Age" textoDer="24" colorTexto="white" />
-                <DatosContacto textoIzq="Residence" textoDer="BD" colorTexto="white" />
+            <section className="mt-1 flex flex-col mx-8">
+                <DatosContacto textoIzq="Edad" textoDer="25" colorTexto="white" />
+                <DatosContacto textoIzq="Residencia" textoDer="La Union Ant" colorTexto="white" />
                 <DatosContacto textoIzq="Freelance" textoDer="Available" colorTexto="text-lime-500" />
-                <DatosContacto textoIzq="Address" textoDer="Dhaka, Bangladesh" colorTexto="white" />
+                <DatosContacto textoIzq="Correo" textoDer="duvan.ruiz1@udea.edu.co" colorTexto="white" />
             </section>
             <div className="linea_2"></div>
             <section className="mt-3 flex flex-col mx-10">
-                <span className="titulo-sidebar">Languages</span>
-                <BarraProgreso porcProgreso={100} textoIzq="Bangla" textoDer="100%" />
-                <BarraProgreso porcProgreso={80} textoIzq="English" textoDer="80%" />
-                <BarraProgreso porcProgreso={60} textoIzq="Spanish" textoDer="60%" />
+                <span className="titulo-sidebar">Lenguajes</span>
+                <BarraProgreso porcProgreso={100} textoIzq="Español" textoDer="100%" />
+                <BarraProgreso porcProgreso={40} textoIzq="Ingles" textoDer="40%" />
+            </section>
+            <div className="linea_2"></div>
+            <section className="mt-3 flex flex-col mx-9">
+                <span className="titulo-sidebar">Lenguajes de Programacion</span>
+                <BarraProgreso porcProgreso={70} textoIzq="Java" textoDer="70%" />
+                <BarraProgreso porcProgreso={50} textoIzq="SpringBoot" textoDer="50%" />
+                <BarraProgreso porcProgreso={15} textoIzq="React" textoDer="15%" />
             </section>
             <div className="linea_2"></div>
             <section className="mt-3 flex flex-col mx-10">
-                <span className="titulo-sidebar">Programming Languages</span>
-                <BarraProgreso porcProgreso={90} textoIzq="Html" textoDer="90%" />
-                <BarraProgreso porcProgreso={85} textoIzq="CSS" textoDer="85%" />
-                <BarraProgreso porcProgreso={80} textoIzq="Js" textoDer="80%" />
-                <BarraProgreso porcProgreso={75} textoIzq="PHP" textoDer="75%" />
-                <BarraProgreso porcProgreso={85} textoIzq="WordPress" textoDer="85%" />
-            </section>
-            <div className="linea_2"></div>
-            <section className="mt-3 flex flex-col mx-10">
-                <span className="titulo-sidebar">Extra Skills</span>
+                <span className="titulo-sidebar">Skills Extra</span>
                 <Skills texto="Bootstrap, Materialize" />
-                <Skills texto="Stylus, Sass, Less" />
-                <Skills texto="Gulp, Webpack, Grunt" />
                 <Skills texto="Git Knowledge" />
 
             </section>

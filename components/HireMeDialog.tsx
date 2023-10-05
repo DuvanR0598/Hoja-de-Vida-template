@@ -18,10 +18,10 @@ const HireMeDialog = ({ isOpen, handleClose }: HireMeDialogProps) => {
     <Dialog
       open={isOpen}
       onClose={handleClose}>
-      <DialogTitle className=' text-2xl text-center font-bold'>¡GRACIAS!</DialogTitle>
+      <DialogTitle className=' text-2xl text-center font-bold'>¡QUE BUENA ELECCIÓN!</DialogTitle>
       <DialogContent>
         <DialogContentText className=' font-light text-justify'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sed repellat id incidunt vel numquam illum molestiae tempore et! Omnis, debitis illo. Non earum debitis hic.
+          Al lado derecho encontraras todas mis redes sociales donde podremos conversar. Te espero por alla.
         </DialogContentText>
       </DialogContent>
       <DialogActions>
