@@ -10,10 +10,10 @@ const BarraProgreso = ({ porcProgreso, textoIzq, textoDer }: BarraProgresoProps)
   };
 
   return (
-    <div className="relative flex flex-col justify-center py-1 mt-2">
+    <div className="relative flex flex-col justify-center">
         <div className="flex flex-row w-auto justify-between">
-            <span className='text-sm text-slate-500 mb-2'>{textoIzq}</span>
-            <span className='text-sm text-slate-500'>{textoDer}</span>
+            <span className='text-xs text-slate-500 mb-1'>{textoIzq}</span>
+            <span className='text-xs text-slate-500'>{textoDer}</span>
         </div>
       <div className=" h-2 w-56 rounded border-solid border border-amber-300">
         <div className=" bg-amber-300 h-full rounded" style={estilo}></div>

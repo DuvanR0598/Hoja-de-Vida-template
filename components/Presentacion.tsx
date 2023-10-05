@@ -20,7 +20,7 @@ const Presentacion = () => {
                     <span className="text-amber-300 ">Back-end</span>
                     <span className="ml-1">Developer</span>
                 </div>
-                <p className="debug font-light text-slate-500 mb-7 mr-24">Con capacidad de desempeñar habilidades como trabajo en equipo y adaptación al medio. Con gusto por el aprendizaje y la investigación en lenguajes, herramientas y Frameworks de programación.</p>
+                <p className="font-light text-slate-500 mb-7 mr-24">Con capacidad de desempeñar habilidades como trabajo en equipo y adaptación al medio. Con gusto por el aprendizaje y la investigación en lenguajes, herramientas y Frameworks de programación.</p>
                 <HireMeButton onClick={dialogOpen} />
                 <HireMeDialog isOpen={openDialog} handleClose={handleCloseDialog} />
             </div>

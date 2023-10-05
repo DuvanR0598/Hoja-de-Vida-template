@@ -8,8 +8,8 @@ interface educationProps {
 
 const Education = ( { titulo1,subTitulo,fecha,titulo2,descripcion }: educationProps ) => {
     return (
-        <div className="flex justify-between border-b border border-gray-200 border-solid w-[890px] h-[220px] py-10">
-            <div className="  flex flex-col w-5/12 ml-6">
+        <div className="flex justify-between border-b border border-gray-200 border-solid  h-[200px] py-8">
+            <div className="flex flex-col w-5/12 ml-6">
                 <span className="text-lg font-bold"> {titulo1} </span>
                 <div className=" flex mt-5">
                     <span className="mr-4 text-xs font-semibold"> {subTitulo} </span>
