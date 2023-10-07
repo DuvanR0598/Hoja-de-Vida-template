@@ -1,4 +1,4 @@
-interface educationProps {
+interface EducationProps {
     titulo1: string;
     subTitulo: string;
     fecha: string;
@@ -6,7 +6,7 @@ interface educationProps {
     descripcion: string;
 }
 
-const Education = ( { titulo1,subTitulo,fecha,titulo2,descripcion }: educationProps ) => {
+const Education = ( { titulo1,subTitulo,fecha,titulo2,descripcion }: EducationProps ) => {
     return (
         <div className="flex justify-between border-b border border-gray-200 border-solid  h-[200px] py-8">
             <div className="flex flex-col w-5/12 ml-6">

@@ -15,8 +15,8 @@ const BarraProgreso = ({ porcProgreso, textoIzq, textoDer }: BarraProgresoProps)
             <span className='text-xs text-slate-500 mb-1'>{textoIzq}</span>
             <span className='text-xs text-slate-500'>{textoDer}</span>
         </div>
-      <div className=" h-2 w-56 rounded border-solid border border-amber-300">
-        <div className=" bg-amber-300 h-full rounded" style={estilo}></div>
+      <div className="h-2 w-56 rounded border-solid border border-amber-300 p-[1px]">
+        <div className="bg-amber-300 h-full rounded" style={estilo}></div>
       </div>
       
     </div>
